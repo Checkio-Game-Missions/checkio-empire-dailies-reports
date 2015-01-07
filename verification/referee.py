@@ -35,7 +35,7 @@ from checkio.referees import checkers
 from tests import TESTS
 
 cover = """def cover(data, f):
-    return f(str(data))
+    return f(str(data[0]), str(data[1]), str(data[2]))
 """
 
 api.add_listener(
@@ -46,7 +46,7 @@ api.add_listener(
             'python-27': cover,
             'python-3': None
         },
-        function_name="count_ingots"
+        function_name="count_reports"
         # checker=None,  # checkers.float.comparison(2)
         # add_allowed_modules=[],
         # add_close_builtins=[],
