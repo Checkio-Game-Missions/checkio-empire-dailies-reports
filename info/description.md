@@ -1,18 +1,17 @@
-Ingots in each consignment are numbered in the row from A1 to Z9 as
-A1, A2,..., A9, B1, B2, ..., Z9. Each consignment are marked by the last ingots in it.
-So you can define the quantity of ingots my marks.
-Each daily report written as consignments of marks in string separated by commas.
-So you can count the total quantity of ingots for a day.
+Ingots in each consignment are numbered in the row from A1 to Z9 as A1, A2,..., A9, B1, B2, ..., Z9. 
+Each consignment is marked with the number of the last ingot in it so you can define the quantity of ingots by the number of marks.
+Each daily report is written as a list of marks in a string separated by commas.
+This way you can count the total quantity of ingots produced in a day.
 
-The full report contain daily reports for several days.
-Each report is given with a date in the next format:
+The full report contains daily reports for several days.
+Each report is given with a date in the following format:
 `YYYY-MM-DD`, where YYYY is year, MM is month, DD is day.
-Date and report are separated by whitespace. Each date-report are placed on separated lines.
+Dates and reports are separated by whitespace. Each date-report is placed on a separate line.
 
-You are given a full report as a multiline text and two dates.
-You should calculate the total quantity ingots for the days between given dates (**including**).
+You are given a full report as multiline text with two dates.
+You should calculate the total quantity of ingots for the days between the given dates (**including the given dates**).
 
-For example you are given the next full report and dates:
+For example, you are given the following report:
 
 ```
 2015-01-01 A1,B2
