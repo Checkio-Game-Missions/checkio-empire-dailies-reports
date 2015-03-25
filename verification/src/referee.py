@@ -13,9 +13,9 @@ unwrap_str_cover = """def cover(func, data):
 
 class Referee(RefereeBase):
     TESTS = TESTS
-    EXECUTABLE_PATH = settings.EXECUTABLE_PATH
-    CURRENT_ENV = settings_env.CURRENT_ENV
-    FUNCTION_NAME = "count_reports"
+    ENVIRONMENTS = settings_env.ENVIRONMENTS
+
+    DEFAULT_FUNCTION_NAME = "count_reports"
     ENV_COVERCODE = {
         "python_2": unwrap_str_cover,
         "python_3": covercodes.py_unwrap_args,
