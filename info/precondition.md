@@ -1,4 +1,3 @@
 **Precondition:**
-```python
-a < b
-```
+
+All report line are correct.
