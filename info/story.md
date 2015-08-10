@@ -1,2 +1,2 @@
-As we already know for accurate accounting all ingots in cargo are numbered.
-But days are passing and we have more and more reports.
+As we already know for an accurate accounting, all ingots we manufacture are numbered.
+But days are passing by we're finding that the reports are becoming overwhelming.
