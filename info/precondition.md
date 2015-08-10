@@ -1,3 +1,3 @@
 **Precondition:**
 
-All report line are correct.
+All report lines are correct.
