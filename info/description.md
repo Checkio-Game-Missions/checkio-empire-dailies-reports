@@ -1,6 +1,6 @@
 Ingots in each consignment are numbered in the row from A1 to Z9 as
 A1, A2,..., A9, B1, B2, ..., Z9. Each consignment are marked by the last ingots in it.
-So you can define the quantity of ingots my marks.
+So you can define the quantity of ingots by marks.
 Each daily report written as consignments of marks in string separated by commas.
 So you can count the total quantity of ingots for a day.
 
